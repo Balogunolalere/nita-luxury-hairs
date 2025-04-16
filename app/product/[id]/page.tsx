@@ -37,6 +37,230 @@ const mockProducts = [
     rating: 4.8,
     reviewCount: 24,
   },
+  {
+    id: "2",
+    name: "Peruvian Straight Wig",
+    price: 299.99,
+    description:
+      "Our Peruvian Straight Wig is made with premium human hair and features a lace front for a natural-looking hairline. This wig offers a sleek, straight style that can be customized to your preferences.",
+    images: [
+      "/placeholder.svg?height=600&width=600&text=Straight+Wig+1",
+      "/placeholder.svg?height=600&width=600&text=Straight+Wig+2",
+    ],
+    category: "Wigs",
+    featured: false,
+    onSale: false,
+    specifications: {
+      material: "100% Human Hair",
+      capSize: "Medium",
+      lengths: ['14"', '16"', '18"', '20"'],
+      colors: ["Natural Black", "Off Black", "Dark Brown"],
+      texture: "Straight",
+      origin: "Peru",
+    },
+    stock: 8,
+    rating: 4.6,
+    reviewCount: 18,
+  },
+  {
+    id: "3",
+    name: "Malaysian Curly Bundle",
+    price: 159.99,
+    description:
+      "Our Malaysian Curly Bundle features beautiful, bouncy curls that maintain their shape. Made with 100% virgin human hair, these bundles can be dyed, bleached, and styled to your liking.",
+    images: [
+      "/placeholder.svg?height=600&width=600&text=Curly+Bundle+1",
+      "/placeholder.svg?height=600&width=600&text=Curly+Bundle+2",
+    ],
+    category: "Extensions",
+    featured: false,
+    onSale: false,
+    specifications: {
+      material: "100% Virgin Human Hair",
+      weight: "100g per bundle",
+      lengths: ['12"', '14"', '16"', '18"', '20"'],
+      colors: ["Natural Black"],
+      texture: "Curly",
+      origin: "Malaysia",
+    },
+    stock: 12,
+    rating: 4.7,
+    reviewCount: 15,
+  },
+  {
+    id: "4",
+    name: "Lace Frontal Closure",
+    price: 129.99,
+    description:
+      "Our Lace Frontal Closure provides a seamless blend with your natural hairline. Made with high-quality human hair, this frontal can be customized to create the perfect look for your installation.",
+    images: [
+      "/placeholder.svg?height=600&width=600&text=Frontal+1",
+      "/placeholder.svg?height=600&width=600&text=Frontal+2",
+    ],
+    category: "Accessories",
+    featured: false,
+    onSale: false,
+    specifications: {
+      material: "100% Human Hair",
+      size: "13x4 inches",
+      lengths: ['10"', '12"', '14"', '16"', '18"'],
+      colors: ["Natural Black"],
+      texture: "Straight, Body Wave, Curly",
+      origin: "Various",
+    },
+    stock: 10,
+    rating: 4.5,
+    reviewCount: 12,
+  },
+  {
+    id: "5",
+    name: "Indian Deep Wave",
+    price: 189.99,
+    description:
+      "Our Indian Deep Wave hair offers luxurious, deep waves that create a stunning, voluminous look. This premium human hair can be styled, dyed, and treated just like your natural hair.",
+    images: [
+      "/placeholder.svg?height=600&width=600&text=Deep+Wave+1",
+      "/placeholder.svg?height=600&width=600&text=Deep+Wave+2",
+    ],
+    category: "Extensions",
+    featured: true,
+    onSale: false,
+    specifications: {
+      material: "100% Human Hair",
+      weight: "100g per bundle",
+      lengths: ['12"', '14"', '16"', '18"', '20"', '22"'],
+      colors: ["Natural Black", "Dark Brown"],
+      texture: "Deep Wave",
+      origin: "India",
+    },
+    stock: 14,
+    rating: 4.9,
+    reviewCount: 20,
+  },
+  {
+    id: "6",
+    name: "Synthetic Bob Wig",
+    price: 99.99,
+    salePrice: 79.99,
+    description:
+      "Our Synthetic Bob Wig offers an affordable, stylish option for those looking for a quick style change. This wig features a classic bob cut that frames the face beautifully.",
+    images: [
+      "/placeholder.svg?height=600&width=600&text=Bob+Wig+1",
+      "/placeholder.svg?height=600&width=600&text=Bob+Wig+2",
+    ],
+    category: "Wigs",
+    featured: false,
+    onSale: true,
+    specifications: {
+      material: "High-Quality Synthetic Fiber",
+      capSize: "Adjustable",
+      length: '12"',
+      colors: ["Black", "Brown", "Auburn", "Blonde"],
+      texture: "Straight",
+      heatFriendly: "Up to 320°F",
+    },
+    stock: 20,
+    rating: 4.3,
+    reviewCount: 14,
+  },
+  {
+    id: "7",
+    name: "Hair Styling Tools Set",
+    price: 79.99,
+    description:
+      "Our comprehensive Hair Styling Tools Set includes everything you need to maintain and style your hair extensions and wigs. This set includes a wide-tooth comb, edge brush, detangling brush, and more.",
+    images: [
+      "/placeholder.svg?height=600&width=600&text=Tools+Set+1",
+      "/placeholder.svg?height=600&width=600&text=Tools+Set+2",
+    ],
+    category: "Accessories",
+    featured: false,
+    onSale: false,
+    specifications: {
+      contents: "Wide-tooth comb, Edge brush, Detangling brush, Hair clips, Styling spray",
+      material: "High-quality plastic and nylon",
+      suitable: "All hair types",
+    },
+    stock: 25,
+    rating: 4.4,
+    reviewCount: 8,
+  },
+  {
+    id: "8",
+    name: "Brazilian Straight Bundle",
+    price: 149.99,
+    description:
+      "Our Brazilian Straight Bundle features silky smooth, straight hair that lies flat and looks natural. Made with 100% human hair, these bundles are versatile and can be styled to your preference.",
+    images: [
+      "/placeholder.svg?height=600&width=600&text=Straight+Bundle+1",
+      "/placeholder.svg?height=600&width=600&text=Straight+Bundle+2",
+    ],
+    category: "Extensions",
+    featured: true,
+    onSale: false,
+    specifications: {
+      material: "100% Human Hair",
+      weight: "100g per bundle",
+      lengths: ['14"', '16"', '18"', '20"', '22"', '24"'],
+      colors: ["Natural Black"],
+      texture: "Straight",
+      origin: "Brazil",
+    },
+    stock: 16,
+    rating: 4.7,
+    reviewCount: 22,
+  },
+  {
+    id: "9",
+    name: "Lace Front Wig",
+    price: 299.99,
+    salePrice: 249.99,
+    description: 
+      "Our premium Lace Front Wig provides a natural-looking hairline and comfortable fit. Made with 100% human hair, this wig can be styled, dyed, and treated like your natural hair.",
+    images: [
+      "/placeholder.svg?height=600&width=600&text=Lace+Front+1",
+      "/placeholder.svg?height=600&width=600&text=Lace+Front+2",
+    ],
+    category: "Wigs",
+    featured: true,
+    onSale: true,
+    specifications: {
+      material: "100% Human Hair",
+      capSize: "Adjustable",
+      lengths: ['16"', '18"', '20"', '22"'],
+      colors: ["Natural Black", "Off Black"],
+      texture: "Straight, Body Wave, Curly",
+      density: "150%",
+    },
+    stock: 10,
+    rating: 4.8,
+    reviewCount: 16,
+  },
+  {
+    id: "10",
+    name: "Curly Clip-ins",
+    price: 149.99,
+    description:
+      "Our Curly Clip-ins offer a quick and easy way to add volume and length to your hair. These clip-ins blend seamlessly with your natural hair and can be removed easily at the end of the day.",
+    images: [
+      "/placeholder.svg?height=600&width=600&text=Clip+ins+1",
+      "/placeholder.svg?height=600&width=600&text=Clip+ins+2",
+    ],
+    category: "Accessories",
+    featured: false,
+    onSale: false,
+    specifications: {
+      material: "100% Human Hair",
+      weight: "120g per set",
+      lengths: ['14"', '16"', '18"', '20"'],
+      colors: ["Natural Black", "Dark Brown"],
+      texture: "Curly",
+      pieces: "7 pieces per set",
+    },
+    stock: 18,
+    rating: 4.6,
+    reviewCount: 13,
+  },
 ]
 
 export default function ProductPage({ params }: { params: { id: string } }) {
@@ -102,7 +326,7 @@ export default function ProductPage({ params }: { params: { id: string } }) {
           </div>
 
           <div className="flex items-center">
-            {product.onSale ? (
+            {product.onSale && product.salePrice ? (
               <>
                 <span className="text-3xl font-bold">${product.salePrice}</span>
                 <span className="ml-2 text-xl text-muted-foreground line-through">${product.price}</span>
@@ -118,39 +342,43 @@ export default function ProductPage({ params }: { params: { id: string } }) {
           <p className="text-muted-foreground">{product.description}</p>
 
           <div className="space-y-4">
-            <div>
-              <label htmlFor="length" className="block text-sm font-medium mb-1">
-                Length
-              </label>
-              <select
-                id="length"
-                className="w-full border rounded-md p-2"
-                defaultValue={product.specifications.lengths[3]}
-              >
-                {product.specifications.lengths.map((length) => (
-                  <option key={length} value={length}>
-                    {length}
-                  </option>
-                ))}
-              </select>
-            </div>
+            {product.specifications.lengths && Array.isArray(product.specifications.lengths) && (
+              <div>
+                <label htmlFor="length" className="block text-sm font-medium mb-1">
+                  Length
+                </label>
+                <select
+                  id="length"
+                  className="w-full border rounded-md p-2"
+                  defaultValue={product.specifications.lengths[Math.min(3, product.specifications.lengths.length - 1)]}
+                >
+                  {product.specifications.lengths.map((length) => (
+                    <option key={length} value={length}>
+                      {length}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            )}
 
-            <div>
-              <label htmlFor="color" className="block text-sm font-medium mb-1">
-                Color
-              </label>
-              <select
-                id="color"
-                className="w-full border rounded-md p-2"
-                defaultValue={product.specifications.colors[0]}
-              >
-                {product.specifications.colors.map((color) => (
-                  <option key={color} value={color}>
-                    {color}
-                  </option>
-                ))}
-              </select>
-            </div>
+            {product.specifications.colors && Array.isArray(product.specifications.colors) && (
+              <div>
+                <label htmlFor="color" className="block text-sm font-medium mb-1">
+                  Color
+                </label>
+                <select
+                  id="color"
+                  className="w-full border rounded-md p-2"
+                  defaultValue={product.specifications.colors[0]}
+                >
+                  {product.specifications.colors.map((color) => (
+                    <option key={color} value={color}>
+                      {color}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            )}
 
             <div>
               <label htmlFor="quantity" className="block text-sm font-medium mb-1">
@@ -197,12 +425,13 @@ export default function ProductPage({ params }: { params: { id: string } }) {
             <div className="prose max-w-none">
               <p>{product.description}</p>
               <p>
-                Our Brazilian Body Wave hair is sourced ethically and processed with care to maintain its natural
-                texture and shine. The hair is double wefted to minimize shedding and ensure durability.
+                Our {product.name} is sourced ethically and processed with care to maintain its natural
+                texture and shine. {product.category === "Extensions" && "The hair is double wefted to minimize shedding and ensure durability."}
               </p>
               <p>
-                These extensions can be styled with heat tools up to 450°F, allowing you to straighten, curl, or wave
-                the hair to achieve your desired look. With proper care, these extensions can last up to 12 months.
+                {product.category === "Extensions" || product.category === "Wigs" 
+                  ? "This product can be styled with heat tools (check specifications for temperature limits), allowing you to customize your look. With proper care, this product can last up to 12 months."
+                  : "This is an essential addition to your hair care collection to help maintain the quality and longevity of your hair products."}
               </p>
             </div>
           </TabsContent>
